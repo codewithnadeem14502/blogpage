@@ -1,0 +1,1233 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 5px 0 0 20px;
+}
+
+.header {
+  /* background: #fff; */
+  border-radius: 20px;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 1200px;| */
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: #fff;
+  /* background-color: red; */
+  width: 1124px;
+  height: 50px;
+  /* padding: 20px; */
+  margin-left: 4px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: -10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: url("./assets/BLOB\ ANIMATION.gif"); */
+  /* background: url("/supprtsvgs/Gradient.png"); */
+  /* background: url("./assests/Gradient.png"); */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset: 0;
+  /* background-size: 1840px; */
+  z-index: -1;
+}
+.logotext
+{
+  margin-top: 12px;
+  margin-left: 5px;
+  color: rgba(35, 172, 128, 1);
+}
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.item i
+{
+  color: #01787B;
+}
+.nav_section {
+  z-index: 99;
+   /* background-color: red; */
+  }
+
+  .nav_section::before {
+    /* background-color: red; */
+    content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  display: block;
+  height: 520px;
+  width: 100%;
+  /* background: url("./assests/Gradient.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header {
+  z-index: 9999;
+  /* position: relative; */
+}
+
+.search-container {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+
+margin-right: 50px;
+}
+/* searchinp */
+.search-container input[type="text"] {
+  padding: 5px 0;
+  padding-right: 20px; /* Space for the icon */
+  /* background-color: red;nav_section */
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  cursor: pointer;
+}
+.btn_login
+{
+  
+  padding: 5px 30px;
+  background: linear-gradient(180deg, #0B224E -140%, #01787B 93.61%);
+  color: white;
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+border-radius: 34px;
+margin-right: 80px;
+margin-top: 5px;
+}
+.btn_login1 {
+  padding: 15px 30px;
+  color: #01787B;
+  font-weight: 500;
+  background: white;
+  border-radius: 34px;
+  margin-right: 150px;
+  margin-top: 5px;
+  box-shadow: 0px 0px 15.7636px #C4E2EC;
+}
+.dropdown-content {
+  display: none;
+ position: absolute;
+ /* background-color: #f9f9f9; */
+ min-width: 160px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+ top: 8%;
+  left: 38%;
+width: 175px;
+ height: 144px;
+ margin-top: 50px;
+background: rgba(248, 251, 248, 0.9);
+box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.84px);
+/* Note: backdrop-filter has minimal browser support */
+ 
+ border-radius: 14px;
+ }
+.dropdown-content2 {
+  display: none;
+ position: absolute;
+ /* background-color: #f9f9f9; */
+ min-width: 160px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+ top: 8%;
+  left: 19%;
+width: 175px;
+ height: 144px;
+ margin-top: 50px;
+background: rgba(248, 251, 248, 0.9);
+/* background-color:red; */
+box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.84px);
+/* Note: backdrop-filter has minimal browser support */
+ 
+ border-radius: 14px;
+ }
+ 
+ .dropdown-content a {
+  margin: 6px;
+ }
+ 
+ 
+ .dropdown-content2 a {
+  margin: 6px;
+ }
+ 
+ .dropw:hover .dropdown-content {
+ display: block;
+ }
+ .dropw:hover .dropdown-content2 {
+ display: block;
+ }
+ .dropw:hover .downarrow
+ {
+     display: none;
+ }
+
+
+ 
+/* ==============  footer    ====================== */
+.maincontainerbox
+{
+/* background-color:gold; */
+  margin: 50px 50px;
+} 
+.box1container
+{   
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1container h1
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 150%;
+
+text-align: center;
+
+color: #111111;
+}
+.box1container p
+{
+  
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+
+text-align: center;
+
+color: #121212;
+
+}
+.box2container
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.box2list
+{
+    width: 880px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: green; */
+    margin-left: 150px;   
+    opacity: 0.7;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 158.52%;
+    gap: 10px;
+}
+
+
+.box2h1
+{
+    padding: 10px;
+    background: #38B990;
+    border-radius: 11px;
+    color: white;
+}
+.blogspot
+{
+   
+    padding: 10px 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-template-rows: repeat(2, auto); /* Two rows with auto height */
+    gap: 50px; /* Optional: Add gap between grid items */
+  }
+  
+  .grid-item {
+    background-color: #f5f5f5;
+    /* background-color: yellow; */
+    padding-bottom: 30px;
+    box-shadow: 0.913402px 0.913402px 21px rgba(29, 29, 29, 0.1);
+    border-radius: 20px;
+  }
+  .blogimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .box4container
+  {
+  
+    margin-top: 80px;
+  }
+   .gridtime
+   {
+     display: flex;
+     justify-content: stretch;
+     align-items: center;
+   }
+   .gridtime .gp1
+   {
+    padding: 5px;
+    background-color: #38B990;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    
+}
+    .gridtime .gp2
+    {
+        margin-top: 14px;
+    }
+    .girdcontext
+    {
+       
+        margin-left: 12px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .girdcontext h1
+    {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 139%;
+        margin-bottom: 10px;
+    }
+    .girdcontext p
+    {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+   .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+      
+     .pagination a.active {
+        background-color: #38B990;
+        color: white;
+        border: 1px solid #4CAF50;
+      }
+  
+      
+      .pagination a:hover:not(.active) {
+        background-color: #ddd;
+      }
+/* ============================= footer    ============================ */
+.context
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 150px;
+  position: absolute;
+  /* margin: 65px 65px; */
+  margin-left: 40px;
+}
+.gbgimg
+  {
+   
+    width: 1000px;
+    height: 200px;
+   object-fit: cover;
+   background-image: url(./assests/Gradientbgbox5.png);
+   border-radius: 20px;
+   margin-right: 90px;
+   margin-left: 10px;
+  }
+
+.gbgimg img{
+  border-radius: 35px;
+}
+.box5{
+   width: 100%;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+    margin-left: 40px;
+}
+
+.box5_h
+{
+  font-weight: 500;
+  font-size: 45px;
+  color: white;
+
+}
+.box5_p
+{
+  color: white;
+  margin-right: 450px;
+
+  font-size: 15px;
+  font-weight: 400;
+} 
+footer{
+ 
+  background-color: black;
+
+}
+.comp
+{
+ /* pt-6  */
+
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ text-align: center;
+
+ 
+}
+.titlef{
+  color:black ;
+  font-weight: 600;
+  font-size: 23px;
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+}
+li,.text1{
+  color:rgba(86, 86, 86, 1) ;
+  /* color: white; */
+  margin-bottom: 10px;
+}
+.footerlogo{
+  color: #01787B ;
+}
+.textfooter,.textfooteraction{
+  color: white;
+}
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 120px;
+}
+.footerlog{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.socialmedia{
+  display: flex;
+  color: #fff;
+
+}
+.socialmedia img {
+  margin-left: 20px;
+  
+}
+.last{
+  color: white;
+  margin-left: 50px;
+  padding-bottom: 80px;
+}
+.last p{
+  font-family: sans-serif;
+}
+.last2{
+  /* display: flex; */
+  color: white;
+  margin-top: 20px;
+ /* justify-content: space-evenly; */
+}
+.textff
+{
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.fbtns{
+  margin: 5px;
+  padding: 10px;
+  background-color:#01C096 ;
+   border-radius: 5px;
+}
+.last2 {
+  display: flex;
+  justify-content: space-between;
+}
+.lastp2
+{
+  padding-right: 120px;
+  text-decoration: underline;
+}
+.lastp1,
+.lastp2 {
+  margin: 0;
+}
+.tools
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+    .maincontainerbox
+    {
+      /* background-color: red; */
+      margin: 0px;
+      width: 100%;
+      padding: 0;
+    } 
+    .box1container
+    {   
+        width: 100%;
+        height: 400px;
+       
+    }
+    .box1container h1
+    {
+      font-size: 20px;
+    }
+    .box1container p
+    {
+      font-size: 15px;
+    }
+    .box2container {
+      width: 100%;
+      height: 50px;
+      margin: 10px 0; 
+     
+    }
+    .box2list {
+      margin: 0px 5px;
+      width: 100%;
+      height: 50px;
+      font-size: 12px;
+      gap: 11px;
+    }
+    .blogspot
+    {
+      width: 100%;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      grid-template-rows: repeat(2, auto); 
+      gap: 5px; 
+    }
+    .grid-item {
+      margin-bottom: 10px;
+    }
+    .box4container
+    {
+    
+      margin-top: 10px;
+      padding-left: 0px;
+     
+      width: 100%;
+    /* background-color: green; */
+    }
+    .pagination {
+      display: flex;
+     
+    }
+    .pagination a {
+      color: black;
+      float: left;
+    
+    }
+    .box4pagetemp
+    {
+      display: none;
+    }
+    .context
+    {
+   
+      text-align: center;
+      width: 100%;
+      height: 150px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* background-color: #4CAF50; */
+    }
+
+    .box5{
+      width: 100%;
+     margin-bottom: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 30px 0;
+   }
+      .box5_h
+      {
+        text-align: start;
+        font-size: 35px;
+        margin: 0;
+      }
+      .box5_p
+      {
+        margin: 0;
+        text-align: start;
+        font-weight: 300;
+        font-size: 15px;
+
+      } 
+      .gbgimg
+      {
+        width: 100%;
+        height: 300px;
+       object-fit: cover;
+       background-image: url(./assests/Gradientbgbox5.png);
+       margin: 0;
+      }
+            
+
+      .btn_login1 {
+        padding: 10px 20px;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 34px;
+        margin-top: 40px;
+        margin-right: 50px;
+      }  
+      .comp
+      {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto); 
+        gap: 0px; 
+              
+      }
+      .footerlog img
+      {
+        /* background-color: green; */
+        width: 200px;
+        height: 80px;
+      
+        margin-left: 30px;
+
+      }
+      .ttt
+      {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+      }
+      .footerbottom
+      {
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 20px;
+     
+      }
+      .textfooteraction
+      {
+        text-align: left;
+      }
+      
+      .footersdie
+      {
+        margin: 0;
+      }
+      .tools
+      {
+      
+        display: inline;
+      }
+      .fbtns{
+        margin: 2px;
+        padding: 8px;
+        background-color:#01C096 ;
+         border-radius: 5px;
+      }
+      .fbtns1
+      {
+      
+        margin-left: 50px;
+        margin-bottom: 5px;
+        
+      }
+      .fbtns2
+      {
+        margin-left: 30px;
+      }
+      .socialmedia
+      {
+        /* background-color:blue; */
+        position: absolute;
+        margin: 0;
+        margin-left: 25px;
+      top: 4030px;
+      left: 0;
+      }
+      .socialmedia img
+      {
+        width: 30px;
+      }
+      .ttt
+      {
+        padding-bottom: 20px;
+      }
+      .last2
+      {
+        display: inline;
+
+      }
+      .last
+      {
+        padding-top: 10px;
+        margin-left: 23px;
+        padding-bottom: 0px;
+        padding-right: 10px;
+
+      }
+      .contain
+      {
+        margin-left: 5px;
+      }
+      .lastp1
+      {
+        font-size: 10px;
+        margin: 0px;
+        font-weight: 500;
+        padding: 20px 0;
+      }
+      .lastp2
+      {
+        display: none;
+      }
+    
+}
+/* mobile  */
+@media only screen and (min-width: 360px) and (max-width: 724px) {
+ 
+  .maincontainerbox
+  {
+   /* background-color: gray; */
+   margin: 0px 15px;
+  }
+    .box1container
+    {   
+     
+        width: 100%;
+        height: 150px; 
+        margin-top: 100px;
+    }
+    .box1container h1
+    {
+      font-size: 40px;
+    }
+    .box1container p
+    {
+      font-size: 15px;
+    }
+   
+      .box2container {
+        width: 100%;
+        height: 80px;
+      
+        margin: 5px 5px; 
+      }
+      
+      .box2list {
+        margin-left: 0px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        opacity: 0.7;
+       font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 158.52%;
+        gap: 10px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(2, auto); 
+        gap: 0px; 
+      }
+      .grid-item {
+        margin-bottom: 50px;
+      }
+      .box4container
+      {
+      
+        margin-top: 0px;
+        padding-left: 0px;
+    
+      }
+      .pagination {
+        display: flex;
+      }
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+      }
+      .box4pagetemp
+      {
+        display: none;
+      }
+      .context
+      {
+     
+        flex-direction: column;
+        text-align: start;
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        margin: 0px 0px;
+     
+        padding-left: 10px;
+      }
+      .box5
+      { 
+        margin-bottom: 0px;
+       width: 100%;
+        /* background-color: red; */
+        margin: 40px 0;
+        padding: 0;
+      }
+      .box5_h
+      {
+        font-weight: 600;
+        font-size: 45px;
+        color: white;
+      
+      }
+      .box5_p
+      {
+        color: white;
+        margin-right: 0px;
+
+        font-weight: 300;
+        font-size: 16px;
+
+      } 
+      .gbgimg
+      {
+      /* background-color: violet; */
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        background-image: url(./assests/Gradientbgbox5.png);
+        border-radius: 20px;
+  margin: 0;
+      }
+      .gbgimg img{
+        border-radius: 0px;
+      }
+      .context_text
+      {
+      
+        margin-right: 0;
+        margin-left: 10px;
+        margin-bottom: 4px;
+      }
+      .btn_login1 {
+        padding: 10px 20px;
+        border-radius: 34px;
+        margin-right: 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }  
+      .comp
+      {
+       
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto); 
+        gap: 0px; 
+              
+      }
+      .footerlog img
+      {
+        /* background-color: green; */
+        width: 200px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 30px;
+     padding: 0;
+      }
+      .ttt
+      {
+        margin-left: 30px;
+        margin-bottom: 80px;
+      }
+      .footerbottom
+      {
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 20px;
+        /* background-color: pink; */
+     
+      }
+      .textfooteraction
+      {
+        text-align: left;
+      }
+      
+      .footersdie
+      {
+        margin: 0;
+      }
+      .tools
+      {
+       
+        display: inline;
+      }
+      .fbtns{
+        margin: 2px;
+        padding: 10px;
+        background-color:#01C096 ;
+         border-radius: 5px;
+      }
+      .fbtns1
+      {
+      
+        margin-left: 70px;
+        margin-bottom: 5px;
+        
+      }
+      .fbtns2
+      {
+        margin-left: 50px;
+      }
+      .socialmedia
+      {
+      
+       margin: 0;
+       position: absolute;
+       top: 4030px;
+       left: 20px;
+     
+      }
+      .socialmedia img{
+        width: 30px;
+      }
+      .last2
+      {
+        display: inline;
+
+      }
+      .last
+      {
+        padding-top: 10px;
+        margin-left: 23px;
+        padding-bottom: 0px;
+        padding-right: 10px;
+
+      }
+      .contain
+      {
+        margin-left: 5px;
+      }
+      .lastp1
+      {
+        font-size: 10px;
+        margin: 0 10px;
+        font-weight: 500;
+        padding: 20px 0;
+      }
+      .lastp2
+      {
+        display: none;
+      }
+}
+/* tablet  completed */
+@media only screen and (min-width: 764px) and (max-width: 1024px) {
+  .maincontainerbox
+  {
+    /* background-color: pink; */
+    width: 100%;
+    margin: 10px 0;
+  }
+  .grid-container {
+
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: repeat(2, auto);  
+      gap: 20px; 
+    }
+    .box2container
+    {
+        width: 100%;
+        height: 100px;
+      
+    }
+  .box2list
+  {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-left: 0px;   
+  
+    }
+    .context
+    {
+
+      flex-direction: column;
+      text-align: start;
+      width: 100%;
+      height: 150px;
+      position: absolute;
+      margin: 10px 0px;
+      padding-left: 50px;
+    }
+
+    .box5{
+      width: 100%;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+  .box5_h
+  {
+    font-size: 69px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .box5_p
+  {
+    color: white;
+    margin-right: 0px;
+    font-size: 20px;
+    font-weight: 400;
+   
+    padding-right: 350px;
+  } 
+  .gbgimg
+  {
+  
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-image: url(./assests/Gradientbgbox5.png);
+    border-radius: 20px;
+    margin-right: 90px;
+    margin-left: 10px;
+  }
+  .gbgimg img{
+    border-radius: 0px;
+  }
+  .btn_login1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+   margin-top: 30px;
+  } 
+  .footerbottom
+  {
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 20px;
+ 
+  }
+  .textfooteraction
+  {
+    /* background-color: pink; */
+    margin-left: 0;
+    text-align: left;
+  }
+  
+  .footersdie
+  {
+    margin: 0;
+  }
+  .tools
+  {
+    /* background-color: red; */
+    margin-left: 0;
+   
+    /* padding-right: 330px; */
+    display: flex;
+  }
+  .fbtns{
+    margin: 2px;
+    padding: 10px;
+    background-color:#01C096 ;
+     border-radius: 5px;
+  }
+  .fbtns1
+  {
+  
+    margin-left: 0px;
+    margin-bottom: 5px;
+    
+  }
+  .fbtns2
+  {
+    margin-left: 0px;
+  }
+  .socialmedia
+  {
+  
+    margin: 0;
+    margin-left: 25px;
+  }
+  .last2
+  {
+    display: inline;
+
+  }
+  .last
+  {
+    padding-top: 10px;
+    margin-left: 23px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+
+  }
+  .socialmedia
+  {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .socialmedia img
+  {
+    width: 50px;
+    height: 20px;
+  }
+  .contain
+  {
+    margin-left: 5px;
+  }
+  .lastp1
+  {
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 20px 0;
+  }
+  .lastp2
+  {
+    display: none;
+  }
+
+}
+/* xl laptop completed -2 */
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+    /* 22 xl */
+   
+    .maincontainerbox
+    {
+   /* background-color: red; */
+    width: 100%;
+
+  margin: 10px 0;
+    }
+    .gbgimg
+    {
+    
+      width: 1000px;
+      height: 200px;
+      object-fit: cover;
+      background-image: url(./assests/Gradientbgbox5.png);
+      border-radius: 20px;
+      margin-right: 90px;
+      margin-left: 10px;
+    }
+
+  .box2list {
+    margin: 20px 85px;
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    gap: 19px;
+    /* background-color: #fff; */
+    margin-left: 250px;
+  }
+  footer
+  {
+    width: 100%;
+    /* background-color: red; */
+  }
+}
